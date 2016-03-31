@@ -1,0 +1,80 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Présentation{% endblock %}
+
+{% block body %}
+
+    <!-- Content Row -->
+    <div class="row">
+
+        <!-- /.col-md-6 -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <h2>Formations :</h2>
+            <p><strong>Psychologue clinicienne</strong> diplômée de l’université Lumière Lyon 2.</p>
+            <p><span style="text-decoration: underline">Spécialité :</span> <strong>psychothérapie analytique de couple</strong>, de famille et de groupe diplômée de l’IPSYC (Institut Psychanalytique de Couple), Paris.</p>
+            <p>Conseillère conjugale et familiale diplômée de l’AFCCC (Association Française des Centres de Consultation Conjugale), Paris.</p>
+            <p>Membre de l’Institut Psychanalytique de Couple et membre du groupe de recherche.</p>
+            <p>Membre de l’AIPCF : Association Internationale Psychanalytique de Couple et de Famille </p>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="{{ asset('bundles/site/image/DSC_0243.JPG') }}" alt="Elisabeth de Barbanson">
+        </div>
+    </div> <!-- /.row -->
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="{{ asset('bundles/site/image/DSC_0253.JPG') }}" alt="local" id="image2">
+        </div>
+
+        <div class="col-md-6">
+            <h2>Activités :</h2>
+
+            <h3>Psychothérapie</h3>
+            <p>Je reçois en individuel (<strong>adultes</strong>, <strong>adolescents</strong>, <strong>enfants</strong>), en <strong>thérapie de couple</strong> ou en <strong>consultation familiale</strong>. </p>
+            <p> Possibilité de consultations à domicile lorsqu’une personne a des difficultés de déplacement.</p>
+
+            <h3>Analyse de la pratique</h3>
+            <p>Dans des institutions (crèches, Mecs, RAM…) ou au cabinet.</p>
+
+            <h3>Supervision</h3>
+            <p>Supervision de conseillères conjugales et familiales dans mon cabinet ou sur leur lieu de travail.</p>
+        </div>        <!-- /.col-md-6 -->
+    </div>
+
+    {#<div class="row">#}
+
+    {#<div class="col-md-6">#}
+    {#<h2>Pourquoi et quand consulter ?</h2>#}
+
+    {#<h3>Prendre un rendez-vous avec un psychologue, est-ce facile ?</h3>#}
+    {#<p></p>#}
+    {#<a class="btn btn-default" href="{{ path('_prendre_r_d_v') }}">plus de détail</a>#}
+
+    {#<h3>Pourquoi consulter ?</h3>#}
+    {#<p></p>#}
+    {#<a class="btn btn-default" href="{{ path('_pourquoi_consulter') }}">plus de détail</a>#}
+
+    {#<h3>Quand consulter ?</h3>#}
+    {#<p></p>#}
+    {#<a class="btn btn-default" href="{{ path('_quandconsulter') }}">plus de détail</a>#}
+    {#</div>#}
+
+    {#<div class="col-lg-6">#}
+    {#<h2>Approches d’accompagnement :</h2>#}
+
+    {#<h3>L’approche psychanalytique :</h3>#}
+    {#<p>La <strong>psychothérapie analytique</strong> invite à explorer son jardin secret et à y <strong>mettre du sens</strong>.</p>#}
+    {#<a class="btn btn-default" href="{{ path('_approche_psychanalytique') }}">plus de détail</a>#}
+
+    {#<h3>L’approche psychanalytique groupale :</h3>#}
+    {#<p>Elle est utilisée en psychothérapie analytique de couple</p>#}
+    {#<a class="btn btn-default" href="{{ path('approche_psychanalytique_groupale') }}">plus de détail</a>#}
+
+    {#<h3>L’approche systémique :</h3>#}
+    {#<p>L’approche systémique suggère que les interactions entre les personnes peuvent être comprises comme un « système ».</p>#}
+    {#<a class="btn btn-default" href="{{ path('_approche_systemique') }}">plus de détail</a>#}
+    {#</div>#}
+    {#</div>#}
+
+{% endblock %}

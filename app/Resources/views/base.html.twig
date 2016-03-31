@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+            {% block stylesheets %}
+                {% stylesheets filter='cssrewrite'
+                '@SiteBundle/Resources/public/css/style.css'
+                '@SiteBundle/Resources/public/bootstrap-3.3.6-dist/css/*.css'
+                %}
+                    <link rel="stylesheet" href="{{ asset_url }}" />
+            {% endstylesheets %}
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body lang="fr">
+
+    {{ include('header.html.twig') }}
+        {% block body %}
+
+        {% endblock %}
+    {{ include('footer.html.twig') }}
+    {% block javascripts %}
+        {% javascripts
+        '@SiteBundle/Resources/public/jquery/jquery-2.2.0.js'
+        '@SiteBundle/Resources/public/bootstrap-3.3.6-dist/js/bootstrap.js'
+        %}
+             <script src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+    {% endblock %}
+    </body>
+</html>

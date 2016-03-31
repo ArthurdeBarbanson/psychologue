@@ -1,0 +1,43 @@
+.container{
+    padding: 0px;
+}
+
+/*header */
+header .container{
+    background-color: #f2a77b ;
+}
+.coordonnee{
+    float: right;
+    width: 450px;
+}
+#telephone,#adresse,#adresse2{
+    float: right;
+    font-weight: bold;
+}
+#adresse,#adresse2{
+    font-size: 24px;
+}
+#telephone{
+    font-size: 38px;
+}
+#Elisabeth{
+    font-size: 38px;
+    margin-left: 10px;
+}
+
+#de_Barbanson{
+    font-size: 48px;
+}
+
+/*************/
+
+/*presentation*/
+
+img{
+    width: 100%;
+}
+ p{
+     font-size: 18px;
+ }
+ #image2{margin-top: 20px;}
+ /**********/

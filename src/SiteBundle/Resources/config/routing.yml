@@ -1,0 +1,47 @@
+presentation:
+    path:     /
+    defaults: { _controller: SiteBundle:Site:Presentation }
+
+contact:
+    path:     /contact
+    defaults: { _controller: SiteBundle:Contact:contact }
+
+_pourquoi_consulter:
+    path:     /Pourquoi consulter
+    defaults: { _controller: SiteBundle:Site:PourquoiConsulter }
+
+_quandconsulter:
+    path:     /Quandconsulter
+    defaults: { _controller: SiteBundle:Site:Quandconsulter }
+
+_prendre_r_d_v:
+    path:     /PrendreRDV
+    defaults: { _controller: SiteBundle:Site:PrendreRDV }
+
+_approche_psychanalytique:
+    path:     /Approche_psychanalytique
+    defaults: { _controller: SiteBundle:Site:Approche_psychanalytique }
+
+approche_psychanalytique_groupale:
+    path:     /approche_psychanalytique_groupale
+    defaults: { _controller: SiteBundle:Site:approche_psychanalytique_groupale }
+
+_approche_systemique:
+    path:     /Approche_systemique
+    defaults: { _controller: SiteBundle:Site:Approche_systemique }
+
+_parentalite:
+    path:     /Parentalite
+    defaults: { _controller: SiteBundle:Site:Parentalite }
+
+therapiequestceque:
+    path:     /therapie analytique de couple
+    defaults: { _controller: SiteBundle:Site:therapiequestceque }
+
+_crisedanslecouple:
+    path:     /Ce qui peut faire crise dans le couple
+    defaults: { _controller: SiteBundle:Site:Crisedanslecouple }
+
+traversercrise:
+    path:     /traversercrise
+    defaults: { _controller: SiteBundle:Site:traversercrise }
