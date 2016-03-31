@@ -23,10 +23,12 @@ header .container{
 #Elisabeth{
     font-size: 38px;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 #de_Barbanson{
     font-size: 48px;
+    font-weight: bold;
 }
 
 /*************/
