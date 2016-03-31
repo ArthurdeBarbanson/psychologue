@@ -14,7 +14,8 @@
 .pourquoiQuandConsulter{ background-color: #f2ba75
 }
 
-#presentation{background-color: #ffb97c
+#presentation{
+    background-color: #F2D0A7;
 }
 
 .container section{
@@ -23,7 +24,7 @@
 
 /*header */
 header .container{
-    background-color: #f2a77b ;
+    background-color: #BF946F ;
 }
 .coordonnee{
     float: right;
