@@ -23,7 +23,7 @@ class ContactController extends Controller
 
 
 
-        return $this->render('SiteBundle:contact.html.twig', [
+        return $this->render('SiteBundle:Site:contact.html.twig', [
             'form' => $form->createView()
         ]);
     }
