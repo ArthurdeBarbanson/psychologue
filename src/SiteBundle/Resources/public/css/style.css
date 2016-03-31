@@ -1,5 +1,20 @@
+/*general*/
+
 .container{
     padding: 0px;
+}
+.container h1,.container h2,.container h3,.container h4{
+    font-weight: bold;
+}
+.container h1{
+    text-decoration: underline;
+}
+.therapie{ background-color: #f2c877}
+
+.pourquoiQuandConsulter{ background-color: #acf2a9}
+
+.container section{
+    margin: 0px 15px  0px 15px;
 }
 
 /*header */
@@ -30,8 +45,6 @@ header .container{
     font-size: 48px;
     font-weight: bold;
 }
-
-/*************/
 
 /*presentation*/
 
