@@ -59,8 +59,11 @@ img{
  p{
  }
  #image2,#image1{margin-top: 20px;}
- /**********/
 
+ /*contact*/
+textarea.form-control{height: 132px;}
+
+/*footer*/
 footer .container{
     background-color: #C0AB98;
 }
