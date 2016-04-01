@@ -1,56 +1,66 @@
+/*general*/
+
 .container{
-    background-color: #AD885B;
-    color: black; /* sinon pas noir */
-    /*background-color: #2DC567 ;*!*/
-}
-body{
-    /*background-color: #FF530D;*/
-}
-
-p{
-    font-size: 18px;
-}
-
-/* header */
-header .container{
-    background-color: white;
     padding: 0px;
 }
-
-#Elisabeth{
-    font-family:clarendon-w01-medium-692107,clarendon-w02-medium-693834,serif;
-    font-size: 38px;
-    color: #775151;
-    font-weight:bold;
+.container h1,.container h2,.container h3,.container h4{
+    font-weight: bold;
 }
+.container h1{
+    text-decoration: underline;
+}
+.therapie{ background-color: #f2c877}
+
+.pourquoiQuandConsulter{ background-color: #f2ba75
+}
+
+#presentation{
+    background-color: #F2D0A7;
+}
+
+.container section{
+    margin: 0px 15px  0px 15px;
+}
+
+/*header */
+header .container{
+    background-color: #BF946F ;
+}
+.coordonnee{
+    float: right;
+    width: 450px;
+}
+#telephone,#adresse,#adresse2{
+    float: right;
+    font-weight: bold;
+}
+#adresse,#adresse2{
+    font-size: 24px;
+}
+#telephone{
+    font-size: 38px;
+}
+#Elisabeth{
+    font-size: 38px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
 #de_Barbanson{
     font-size: 48px;
-    font-family: jura,sans-serif;
-    color: #775151;
-}
-
-#de_Barbanson, #Elisabeth{
     font-weight: bold;
 }
 
-
-.coordonnee{
-    float:right;
-    width: 250px;
-}
-.coordonnee span p{
-    margin-left: 0px;
- font-size: 24px;
-    font-weight: bold;
-}
+/*presentation*/
 
 img{
     width: 100%;
 }
+ p{
+ }
+ #image2,#image1{margin-top: 20px;}
+ /**********/
 
-h2{
-    text-decoration: underline;
-}
-h3{
-    font-weight: bolder;
+footer .container{
+    background-color: #C0AB98;
 }
