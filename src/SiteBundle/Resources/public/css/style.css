@@ -33,6 +33,7 @@ header .container{
 #telephone,#adresse,#adresse2{
     float: right;
     font-weight: bold;
+    margin-right: 15px;
 }
 #adresse,#adresse2{
     font-size: 24px;
@@ -42,13 +43,14 @@ header .container{
 }
 #Elisabeth{
     font-size: 38px;
-    margin-left: 10px;
+    margin-left: 15px;
     font-weight: bold;
 }
 
 #de_Barbanson{
     font-size: 48px;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 /*presentation*/
@@ -61,7 +63,7 @@ img{
  #image2,#image1{margin-top: 20px;}
 
  /*contact*/
-textarea.form-control{height: 132px;}
+section .container #contact_Message{height: 132px;}
 
 /*footer*/
 footer .container{
