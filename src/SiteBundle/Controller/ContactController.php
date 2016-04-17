@@ -14,6 +14,7 @@ class ContactController extends Controller
         $form->handleRequest($request);
 
         if($form->isValid()){
+            $form->getData();
 
             $request->getSession()->getFlashBag()->add('notice', 'Votre annonce a bien été envoyé.');
 
