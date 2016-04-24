@@ -29,3 +29,4 @@ class ContactController extends Controller
         ]);
     }
 }
+
