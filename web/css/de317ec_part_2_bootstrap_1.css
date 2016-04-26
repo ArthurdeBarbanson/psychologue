@@ -19,7 +19,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 menu,
 nav,
@@ -1795,7 +1794,7 @@ fieldset[disabled] .form-control {
   cursor: not-allowed;
 }
 textarea.form-control {
-  height: auto;
+  height: 132px;
 }
 input[type="search"] {
   -webkit-appearance: none;
