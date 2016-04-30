@@ -45,3 +45,23 @@ _crisedanslecouple:
 traversercrise:
     path:     /traversercrise
     defaults: { _controller: SiteBundle:Site:traversercrise }
+
+consultations_adulte:
+    path:     /consultation adulte
+    defaults: { _controller: SiteBundle:Site:consultadulte }
+
+consultations_adolescent:
+    path:     /consultation adolescent
+    defaults: { _controller: SiteBundle:Site:consultadolescent }
+
+consultations_enfant:
+    path:     /consultation enfant
+    defaults: { _controller: SiteBundle:Site:consultenfant }
+
+analyse_pratique:
+    path:     /analyse de la pratique
+    defaults: { _controller: SiteBundle:Site:analysepratique }
+
+modalites:
+    path:     /Modalités des consultations
+    defaults: { _controller: SiteBundle:Site:modalite }

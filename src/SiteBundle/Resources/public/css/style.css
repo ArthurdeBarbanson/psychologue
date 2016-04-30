@@ -63,9 +63,14 @@ img{
  #image2,#image1{margin-top: 20px;}
 
  /*contact*/
-section .container #contact_Message{height: 132px;}
+section .container #contact_Message{
+    height: 132px;
+    /*margin-left: 30px;*/
+}
 
 /*footer*/
 footer .container{
     background-color: #C0AB98;
 }
+
+p {text-indent:30px}

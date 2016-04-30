@@ -14,12 +14,12 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
 
-                <li><a href="{{ path('presentation') }}">Présentation</a></li>
+                <li><a href="{{ path('presentation') }}" {% block active %}class="active"{% endblock %}  >Présentation</a></li>
 
                 <li class="dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" id="test">Pourquoi et quand consulter ? <b class="caret"></b></a>
                     <ul class="dropdown-menu" aria-labelledby="test">
-                        <li><a href="{{ path('_prendre_r_d_v') }}">Prendre un rendez-vous avec un psychologue, est-ce facile ?</a></li>
+                        <li><a href="{{ path('_prendre_r_d_v') }}" >Prendre un rendez-vous avec un psychologue, est-ce facile ?</a></li>
                         <li><a href="{{ path('_pourquoi_consulter') }}">Pourquoi consulter ?</a></li>
                         <li><a href="{{ path('_quandconsulter') }}">Quand consulter ?</a></li>
 
@@ -27,20 +27,22 @@
                 </li>
 
                 <li class="dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown"  id="therapiedecouple">Thérapie analytique de couple <b class="caret"></b></a>
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown"  id="therapiedecouple">La thérapie de couple <b class="caret"></b></a>
                     <ul class="dropdown-menu" aria-labelledby="therapiedecouple">
-                        <li><a href="{{ path('therapiequestceque') }}">Thérapie analytique de couple, qu'est ce que c'est ?</a></li>
+                        <li><a href="{{ path('therapiequestceque') }}">La thérapie de couple, qu'est ce que c'est ?</a></li>
                         <li><a href="{{ path('_crisedanslecouple') }}">Ce qui peut faire crise dans le couple</a></li>
                         <li><a href="{{ path('traversercrise') }}">Traverser une crise : drame ou chance ?</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Approches d'accompagnement <b class="caret"></b></a>
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Consultations <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="{{ path('_approche_psychanalytique') }}">L’approche psychanalytique </a></li>
-                        <li><a href="{{ path('approche_psychanalytique_groupale') }}">L’approche psychanalytique groupale</a></li>
-                        <li><a href="{{ path('_approche_systemique') }}">L’approche systémique</a></li>
+                        <li><a href="{{ path('consultations_adulte') }}">La consultation adulte  </a></li>
+                        <li><a href="{{ path('consultations_adolescent') }}">La consultation adolescente</a></li>
+                        <li><a href="{{ path('consultations_enfant') }}">La consultation enfant </a></li>
+                        <li><a href="{{ path('modalites') }}">Modalités des consultations </a></li>
+                        <li><a href="{{ path('analyse_pratique') }}">Analyse de la pratique </a></li>
                     </ul>
                 </li>
 

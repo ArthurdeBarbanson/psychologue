@@ -82,4 +82,35 @@ class SiteController extends Controller
         ));
     }
 
+    public function consultadulteAction()
+    {
+        return $this->render('SiteBundle:Site:consultation_adulte.html.twig', array(
+            // ...
+        ));
+    }
+    public function consultadolescentAction()
+    {
+        return $this->render('SiteBundle:Site:consultation_adolescente.html.twig', array(
+            // ...
+        ));
+    }
+
+    public function consultenfantAction()
+    {
+        return $this->render('SiteBundle:Site:consultation_enfant.html.twig', array(
+            // ...
+        ));
+    }
+    public function analysepratiqueAction()
+    {
+        return $this->render('SiteBundle:Site:consultation_enfant.html.twig', array(
+            // ...
+        ));
+    }
+    public function modaliteAction()
+    {
+        return $this->render('SiteBundle:Site:modalite.html.twig', array(
+            // ...
+        ));
+    }
 }
