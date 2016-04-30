@@ -15,19 +15,19 @@ _quandconsulter:
     defaults: { _controller: SiteBundle:Site:Quandconsulter }
 
 _prendre_r_d_v:
-    path:     /PrendreRDV
+    path:     /neccessite-de-voir-un-psychologue
     defaults: { _controller: SiteBundle:Site:PrendreRDV }
 
 _approche_psychanalytique:
-    path:     /Approche_psychanalytique
+    path:     /Approche-psychanalytique
     defaults: { _controller: SiteBundle:Site:Approche_psychanalytique }
 
 approche_psychanalytique_groupale:
-    path:     /approche_psychanalytique_groupale
+    path:     /approche-psychanalytique-groupale
     defaults: { _controller: SiteBundle:Site:approche_psychanalytique_groupale }
 
 _approche_systemique:
-    path:     /Approche_systemique
+    path:     /Approche-systemique
     defaults: { _controller: SiteBundle:Site:Approche_systemique }
 
 _parentalite:
@@ -35,33 +35,34 @@ _parentalite:
     defaults: { _controller: SiteBundle:Site:Parentalite }
 
 therapiequestceque:
-    path:     /therapie analytique de couple
+    path:     /therapie-analytique-de-couple
     defaults: { _controller: SiteBundle:Site:therapiequestceque }
 
 _crisedanslecouple:
-    path:     /Ce qui peut faire crise dans le couple
+    path:     /crise-de-couple
     defaults: { _controller: SiteBundle:Site:Crisedanslecouple }
 
 traversercrise:
-    path:     /traversercrise
+    path:     /traverser-une-crise
     defaults: { _controller: SiteBundle:Site:traversercrise }
 
 consultations_adulte:
-    path:     /consultation adulte
+    path:     /consultation-adulte
     defaults: { _controller: SiteBundle:Site:consultadulte }
 
 consultations_adolescent:
-    path:     /consultation adolescent
+    path:     /consultation-adolescent
     defaults: { _controller: SiteBundle:Site:consultadolescent }
 
 consultations_enfant:
-    path:     /consultation enfant
+    path:     /consultation-enfant
     defaults: { _controller: SiteBundle:Site:consultenfant }
 
 analyse_pratique:
-    path:     /analyse de la pratique
+    path:     /analyse-de-la-pratique
     defaults: { _controller: SiteBundle:Site:analysepratique }
 
 modalites:
-    path:     /Modalités des consultations
+    path:     /Modalités-des-consultations
     defaults: { _controller: SiteBundle:Site:modalite }
+
