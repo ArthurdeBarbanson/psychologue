@@ -14,15 +14,28 @@ class ContactController extends Controller
         $form->handleRequest($request);
 
         if($form->isValid()){
+
             $form->getData();
 
-            $request->getSession()->getFlashBag()->add('notice', 'Votre annonce a bien été envoyé.');
+            $message = \Swift_Message::newInstance()
+                ->setSubject('Nouveau client')
+                ->setFrom($form->get('Email'))
+                ->setTo('arthurdebarbanson@gmail.com')
+                ->setBody(
+                    $this->renderView(
+                    // app/Resources/views/Emails/registration.html.twig
+                        'Emails/registration.html.twig',
+                        array('message' => $form->get('Message'))
+                    ),
+                    'text/html'
+                );
+            $this->get('mailer')->send($message);
+
+            $request->getSession()->getFlashBag()->add('notice', 'Votre email a bien été envoyé.');
 
         }else{
-            $request->getSession()->getFlashBag()->add('error', 'Votre annonce n\'a pas été envoyé.');
+            $request->getSession()->getFlashBag()->add('error', 'Votre email n\'a pas été envoyé.');
         }
-
-
 
         return $this->render('SiteBundle:Site:contact.html.twig', [
             'form' => $form->createView()
