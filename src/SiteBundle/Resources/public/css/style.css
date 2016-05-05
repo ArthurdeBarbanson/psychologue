@@ -27,6 +27,10 @@ body{
 }
 
 /*header */
+header{
+    background-image: url("../image/backgroundHeader.jpg");
+}
+
 .coordonnee{
     float: right;
     width: 450px;
